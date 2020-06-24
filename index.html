@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Market Board</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="icon" type="image/png" href="./favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+	<header>
+		<span id="update_timestamp">2000/01/01 00:00:00</span>
+		<span>
+			<button type="button" id="reloadbutton">update</button>
+		</span>
+	</header>
+	<span class="go-buttom"><a href="#tickerbottom">⇩</a></span>
+	<div class="section-tables"></div>
+	<div class="customize-ticker" id="tickerbottom">
+		<input type="text" id="addtext">
+		<input type="button" value="+" id="addbutton">
+		<input type="button" value="-" id="delbutton">
+		<input type="button" value="reset" id="resetbutton">
+		<p>
+			<a href="" target="_blank">GitHub</a>
+		</p>
+	</div>
+	<div id="cn"></div>
+	<span class="go-top"><a href="#">⇧</a></span>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/moment@2.25.3/moment.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/echarts@4.8.0/dist/echarts.min.js"></script>
+	<script src="script.js" type="module"></script>
+</body>
+
+</html>

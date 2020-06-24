@@ -1,0 +1,5 @@
+tekitou.js
+package.json
+*.code-workspace
+.vscode/
+node_modules/

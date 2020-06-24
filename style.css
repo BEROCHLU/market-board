@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+:root {
+	--maxWidth: 868px;
+}
+
+body {
+	position: relative;
+	max-width: var(--maxWidth);
+}
+
+.section-tables {
+	margin: 30px 0px 0px 0px;
+}
+
+table {
+	max-width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	text-align: right;
+}
+
+td:not(.stock-ticker) {
+	border: 1px dotted;
+	text-align: right;
+}
+
+td.stock-ticker {
+	border: 1px dotted;
+	width: 100px;
+}
+
+.stock-price {
+	width: 100px;
+}
+
+.stock-change {
+	width: 100px;
+}
+
+.stock-changepercent {
+	width: 100px;
+}
+
+.stock-time {
+	width: 100px;
+}
+
+.stock-chart {
+	width: 30px;
+}
+
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	max-width: var(--maxWidth);
+	height: 25px;
+	background-color: lavender;
+	padding: 3px 0px 0px 10px;
+}
+
+h4 {
+	margin: 10px 0px;
+}
+
+.stock-ticker a,
+.go-buttom a,
+.go-top a {
+	text-decoration: none;
+}
+
+.customize-ticker {
+	margin: 10px 0px 40px 0px;
+}
+
+#addtext {
+	font-size: 18px;
+	font-weight: bold;
+	width: 140px;
+	ime-mode: disabled;
+}
+
+#addbutton,
+#delbutton {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0 10px;
+	margin-left: 8px;
+}
+
+#resetbutton {
+	font-size: 15px;
+	padding: 0 5px;
+	margin-left: 10px;
+}
+
+#reloadbutton {
+	font-size: 15px;
+	background: wheat;
+}
+
+.go-buttom {
+	position: absolute;
+	top: 0px;
+	left: calc(100% - 20px);
+}
+
+.go-top {
+	position: fixed;
+	bottom: 5px;
+	left: 860px;
+	z-index: 1;
+}
+
+#cn {
+	width: 100%;
+	height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+	/*under iPad*/
+
+	.stock-change {
+		display: none;
+	}
+
+	td.stock-ticker {
+		width: 25vw;
+	}
+
+	.stock-price {
+		width: 25vw;
+	}
+
+	.stock-changepercent {
+		width: 25vw;
+	}
+
+	.stock-time {
+		width: 25vw;
+	}
+
+	.go-buttom {
+		display: none;
+	}
+
+	.go-top {
+		display: none;
+	}
+}
