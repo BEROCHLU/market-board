@@ -1,2 +1,3 @@
 # market-board
-real time update stock board with IEX API
+Real time update stock board with IEX API  
+http://pleasecov.g2.xrea.com/IEX/
