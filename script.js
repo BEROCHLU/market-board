@@ -23,7 +23,7 @@ const MARKET_BOARD = [{
 	'sectorArray': ['BTCUSDT', 'ETHUSDT', 'XRPUSDT']
 }, {
 	'sectorName': 'Inverse ETF',
-	'sectorArray': ['TZA', 'FAZ', 'SDOW', 'SQQQ', 'SPXU', 'VXX', 'UVXY', 'TVIX']
+	'sectorArray': ['TZA', 'FAZ', 'SDOW', 'SQQQ', 'SPXU', 'VXX', 'UVXY']
 }, {
 	'sectorName': 'Commodity&Bond ETF',
 	'sectorArray': ['GLD', 'USO', 'TLT']
