@@ -17,7 +17,7 @@ const MARKET_BOARD = [{
 	'sectorArray': ['FB', 'AAPL', 'NFLX', 'GOOG', 'AMZN', 'MSFT']
 }, {
 	'sectorName': 'Tech',
-	'sectorArray': ['TWTR', 'SNAP', 'SQ', 'AMD', 'NVDA']
+	'sectorArray': ['TWTR', 'SNAP', 'SQ', 'AMD', 'NVDA', 'TSLA']
 }, {
 	'sectorName': 'Cryptos',
 	'sectorArray': ['BTCUSDT', 'ETHUSDT', 'XRPUSDT']
