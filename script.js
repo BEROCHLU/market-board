@@ -232,10 +232,6 @@ for (let objSector of MARKET_BOARD) {
 		$('.section-tables section:last table > tbody').append(createTableRow(ticker));
 		arrTicker.push(ticker);
 	}
-	// disable button for crypto section
-	document.querySelector('input.chart-button[data-ticker="BTCUSDT"]').disabled = true;
-	document.querySelector('input.chart-button[data-ticker="ETHUSDT"]').disabled = true;
-	document.querySelector('input.chart-button[data-ticker="XRPUSDT"]').disabled = true;
 }
 
 //create header clock
