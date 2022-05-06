@@ -19,11 +19,8 @@ const MARKET_BOARD = [{
 	'sectorName': 'Tech',
 	'sectorArray': ['TWTR', 'SNAP', 'SQ', 'AMD', 'NVDA', 'TSLA']
 }, {
-	'sectorName': 'Cryptos',
-	'sectorArray': ['BTCUSDT', 'ETHUSDT', 'XRPUSDT']
-}, {
 	'sectorName': 'Inverse ETF',
-	'sectorArray': ['TZA', 'FAZ', 'SDOW', 'SQQQ', 'SPXU', 'VXX', 'UVXY']
+	'sectorArray': ['TZA', 'FAZ', 'SDOW', 'SQQQ', 'SPXU', 'VXX', 'UVXY', 'SARK']
 }, {
 	'sectorName': 'Commodity&Bond ETF',
 	'sectorArray': ['GLD', 'USO', 'TLT']
