@@ -17,10 +17,10 @@ const MARKET_BOARD = [{
 	'sectorArray': ['FB', 'AAPL', 'NFLX', 'GOOG', 'AMZN', 'MSFT']
 }, {
 	'sectorName': 'Tech',
-	'sectorArray': ['TWTR', 'SNAP', 'SQ', 'AMD', 'NVDA', 'TSLA']
+	'sectorArray': ['SNAP', 'SQ', 'AMD', 'NVDA', 'TSLA']
 }, {
 	'sectorName': 'Inverse ETF',
-	'sectorArray': ['TZA', 'FAZ', 'SDOW', 'SQQQ', 'SPXU', 'VXX', 'UVXY', 'SARK']
+	'sectorArray': ['TZA', 'FAZ', 'SDOW', 'SQQQ', 'SPXU', 'VXX', 'UVXY', 'SARK', 'WEBS', 'SOXS']
 }, {
 	'sectorName': 'Commodity&Bond ETF',
 	'sectorArray': ['GLD', 'USO', 'TLT']
@@ -184,7 +184,7 @@ const chartevent = (v) => {
 					max: plot_max
 				},
 				tooltip: {
-					trigger: 'item', //item | axis | node
+					trigger: 'axis', //item | axis | node
 					axisPointer: {
 						type: 'cross'
 					}
