@@ -14,7 +14,7 @@ const MARKET_BOARD = [{
 	'sectorArray': ['GS', 'MS', 'JPM', 'WFC', 'C', 'BAC', 'BCS', 'DB']
 }, {
 	'sectorName': 'FANGAM',
-	'sectorArray': ['FB', 'AAPL', 'NFLX', 'GOOG', 'AMZN', 'MSFT']
+	'sectorArray': ['META', 'AAPL', 'NFLX', 'GOOG', 'AMZN', 'MSFT']
 }, {
 	'sectorName': 'Tech',
 	'sectorArray': ['SNAP', 'SQ', 'AMD', 'NVDA', 'TSLA']
